@@ -1,0 +1,30 @@
+# ## 민감 정보 (Secrets) ##
+# API 키, 계좌번호 등이 포함된 환경 변수 파일
+.env
+
+# ## 파이썬 가상환경 (Virtual Environments) ##
+# venv, anaconda 등 로컬 가상환경 폴더
+.venv/
+venv/
+ENV/
+env/
+kiwoom/
+
+# ## 파이썬 캐시 및 컴파일 파일 ##
+# 파이썬이 실행될 때 자동으로 생성하는 파일들
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ## IDE 및 에디터 설정 파일 ##
+# VSCode, PyCharm 등 개인 개발 환경 설정 폴더
+.vscode/
+.idea/
+
+# ## 로그 파일 ##
+# 프로그램 실행 기록이 담긴 로그 파일
+logs/*.log
+
+# ## 기타 운영체제 파일 ##
+.DS_Store
+Thumbs.db

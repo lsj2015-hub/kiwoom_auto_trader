@@ -1,0 +1,13 @@
+# 실행할 전략의 클래스 이름을 리스트로 관리합니다.
+active_strategies:
+  - "AfterHoursStrategy"
+  # - "MACrossStrategy" # <-- 나중에 새로운 전략을 추가하면 여기에 추가
+
+# --- 각 전략별 상세 설정 ---
+AfterHoursStrategy:
+  target_rate: 7.0
+  investment_amount_per_stock: 100000
+
+MACrossStrategy: # <-- 미래에 만들 전략을 위한 예시
+  short_window: 5
+  long_window: 20
